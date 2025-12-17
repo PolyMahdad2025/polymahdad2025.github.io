@@ -1,0 +1,36 @@
+# Site settings
+title: Mahdad Mahmoudi
+description: PhD Candidate in Polymer Chemistry at the University of Connecticut, specializing in graphene composites, graphene-based coatings, and polymer synthesis.
+author: Mahdad Mahmoudi
+email: Mahdad.mahmoudi@uconn.edu
+url: "https://polymahdad2025.github.io"
+baseurl: ""
+
+# Social/Academic profiles
+google_scholar: "https://scholar.google.com/citations?user=on088CAAAAAJ&hl=en&authuser=1"
+orcid: "https://orcid.org/0009-0006-6308-4207"
+linkedin: "https://www.linkedin.com/in/mahdadmahmoudi/"
+lab_url: "https://adamson.ims.uconn.edu"
+lab_name: "Adamson Lab"
+advisor: "Dr. Douglas Adamson"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Sass/SCSS
+sass:
+  style: compressed
+  sass_dir: assets/css
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag

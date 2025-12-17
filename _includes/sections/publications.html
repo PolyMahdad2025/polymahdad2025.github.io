@@ -1,0 +1,30 @@
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <ul class="publication-list">
+      {% for pub in site.data.publications %}
+      <li class="publication-item">
+        <div class="publication-title">
+          {% if pub.doi != "" %}
+          <a href="{{ pub.doi }}" target="_blank">{{ pub.title }}</a>
+          {% else %}
+          {{ pub.title }}
+          {% endif %}
+        </div>
+        <div class="publication-authors">{{ pub.authors }}</div>
+        <div class="publication-venue">{{ pub.venue }}, {{ pub.year }}</div>
+        {% if pub.doi != "" or pub.pdf %}
+        <div class="publication-links">
+          {% if pub.doi != "" %}<a href="{{ pub.doi }}" target="_blank"><i class="fas fa-link"></i> DOI</a>{% endif %}
+          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ site.google_scholar }}" target="_blank" class="scholar-link">
+      <i class="ai ai-google-scholar"></i>
+      View all on Google Scholar
+    </a>
+  </div>
+</section>

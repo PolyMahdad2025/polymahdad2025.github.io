@@ -1,0 +1,18 @@
+<section class="section" id="education">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      {% for edu in site.data.education %}
+      <div class="timeline-item">
+        <div class="timeline-date">{{ edu.date }}</div>
+        <h3 class="timeline-title">{{ edu.degree }}</h3>
+        <div class="timeline-org">{{ edu.institution }}</div>
+        <div class="timeline-location">{{ edu.location }}</div>
+        {% if edu.description != "" %}
+        <p class="timeline-desc">{{ edu.description }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

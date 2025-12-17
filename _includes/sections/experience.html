@@ -1,0 +1,18 @@
+<section class="section" id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      {% for exp in site.data.experience %}
+      <div class="timeline-item">
+        <div class="timeline-date">{{ exp.date }}</div>
+        <h3 class="timeline-title">{{ exp.title }}</h3>
+        <div class="timeline-org">{{ exp.organization }}</div>
+        <div class="timeline-location">{{ exp.location }}</div>
+        {% if exp.description %}
+        <p class="timeline-desc">{{ exp.description }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
