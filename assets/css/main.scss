@@ -243,7 +243,7 @@ a {
 // ======================
 
 .hero {
-  padding-top: $header-height + $spacing-xxl;
+  padding-top: calc(#{$header-height} + #{$spacing-xxl});
   padding-bottom: $spacing-xl;
   min-height: 80vh;
   display: flex;
@@ -788,7 +788,7 @@ a {
 
   .hero {
     min-height: auto;
-    padding-top: $header-height + $spacing-lg;
+    padding-top: calc(#{$header-height} + #{$spacing-lg});
   }
 
   .hero-photo {
