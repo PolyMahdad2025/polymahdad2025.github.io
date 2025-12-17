@@ -522,7 +522,7 @@ a {
   &::before {
     content: '';
     position: absolute;
-    left: -$spacing-lg - 5px;
+    left: calc(-#{$spacing-lg} - 5px);
     top: 6px;
     width: 12px;
     height: 12px;
