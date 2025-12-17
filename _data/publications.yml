@@ -1,15 +1,7 @@
 # Publications
-# Add your publications here in the following format:
-# - title: "Paper Title"
-#   authors: "Author 1, Author 2, <strong>Your Name</strong>, Author 3"
-#   venue: "Journal Name"
-#   year: 2024
-#   doi: "https://doi.org/..."
-#   pdf: "link to pdf if available"
 
-# Example entry (replace with your actual publications):
-- title: "Example Publication Title - Replace with Your Work"
-  authors: "<strong>M. Mahmoudi</strong>, Co-Author Name"
-  venue: "Journal of Polymer Science"
-  year: 2024
-  doi: ""
+- title: "Graphene-Stabilized Flame-Resistant Polyurethane High Internal Phase Emulsions"
+  authors: "F. Chen, S. T. McDermott, C. D. Liyanage, E. E. B. Brown, <strong>M. Mahmoudi</strong>, D. H. Adamson"
+  venue: "ACS Applied Engineering Materials"
+  year: 2025
+  doi: "https://doi.org/10.1021/acsaenm.5c00042"
